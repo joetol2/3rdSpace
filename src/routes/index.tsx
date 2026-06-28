@@ -554,9 +554,7 @@ function Page() {
           <p>3RD SPACE can be used for many kinds of local activity.</p>
           <div className="grid gap-4 pt-2 sm:grid-cols-2">
             {useTypes.map((u) => (
-              <InfoCard key={u} title={u}>
-                {""}
-              </InfoCard>
+              <InfoCard key={u} title={u} />
             ))}
           </div>
           <p className="pt-2">
